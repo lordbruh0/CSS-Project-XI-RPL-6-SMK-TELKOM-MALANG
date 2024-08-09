@@ -1,0 +1,27 @@
+.link{
+  font-size: 20pt;
+}
+
+.link:hover{
+  color: red;
+}
+
+.link:link{
+  color: blue;
+}
+
+.contoh-link,
+.contoh-link:link,
+.contoh-link:active,
+.contoh-link:visited{
+  font-size: 20pt;
+  background: #1ABC9C;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.contoh-link:hover{
+  background: #16A085;
+}

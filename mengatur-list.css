@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+
+ul.makanan{
+  list-style-type: square;
+}
+
+ul.minuman{
+  list-style-type: circle;
+}
+
+ul.alamat{
+  list-style-type: upper-alpha;
+}
+
+ol.mobil{
+  list-style-type: upper-roman;
+}

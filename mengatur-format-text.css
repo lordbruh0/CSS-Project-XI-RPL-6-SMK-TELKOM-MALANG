@@ -1,0 +1,51 @@
+.tulisan_kiri{
+  text-align: left;
+  color: blue;
+  text-decoration: underline;
+}
+
+.tulisan_kanan{
+  text-align: right;
+  text-transform: capitalize;
+  text-decoration: overline;
+}
+
+.tulisan_tengah{
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: line-through;
+  word-spacing: 10px;
+}
+
+.tulisan_justify{
+  text-indent: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.kotak-satu{
+  background: blue;
+  position: static;
+}
+
+.kotak-dua{
+  background: red;
+  position: relative;
+  left: 40px;
+  padding: 10px;
+}
+
+.kotak-tiga{
+  background: green;
+  position: absolute;
+  right: 100px;
+  padding: 10px;
+}
+
+.kotak-empat{
+  background: yellow;
+  position: fixed;
+  left: 40px;
+  padding: 10px;
+}
